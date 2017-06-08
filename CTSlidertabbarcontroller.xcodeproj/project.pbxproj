@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E88FB05262A9AB11F724644 /* libPods-CTSlidertabbarcontroller.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0931E08DC107D9C69CD59B5E /* libPods-CTSlidertabbarcontroller.a */; };
+		3711E7021D9A0913001EFBB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3711E7011D9A0913001EFBB8 /* main.m */; };
+		3711E7051D9A0913001EFBB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3711E7041D9A0913001EFBB8 /* AppDelegate.m */; };
+		3711E7081D9A0913001EFBB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3711E7071D9A0913001EFBB8 /* ViewController.m */; };
+		3711E70B1D9A0913001EFBB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3711E7091D9A0913001EFBB8 /* Main.storyboard */; };
+		3711E70E1D9A0913001EFBB8 /* CTSlidertabbarcontroller.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3711E70C1D9A0913001EFBB8 /* CTSlidertabbarcontroller.xcdatamodeld */; };
+		3711E7101D9A0913001EFBB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3711E70F1D9A0913001EFBB8 /* Assets.xcassets */; };
+		3711E7131D9A0913001EFBB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3711E7111D9A0913001EFBB8 /* LaunchScreen.storyboard */; };
+		3711E71E1D9A0914001EFBB8 /* CTSlidertabbarcontrollerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3711E71D1D9A0914001EFBB8 /* CTSlidertabbarcontrollerTests.m */; };
+		3711E7291D9A0914001EFBB8 /* CTSlidertabbarcontrollerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3711E7281D9A0914001EFBB8 /* CTSlidertabbarcontrollerUITests.m */; };
+		3711E7381D9A09D6001EFBB8 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3711E7371D9A09D6001EFBB8 /* RootViewController.m */; };
+		3711E73B1D9A09F2001EFBB8 /* NaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3711E73A1D9A09F2001EFBB8 /* NaViewController.m */; };
+		3711E73E1D9A0B05001EFBB8 /* UIViewController+quote.m in Sources */ = {isa = PBXBuildFile; fileRef = 3711E73D1D9A0B05001EFBB8 /* UIViewController+quote.m */; };
+		3711E7411D9A117D001EFBB8 /* RootViewController+quote.m in Sources */ = {isa = PBXBuildFile; fileRef = 3711E7401D9A117D001EFBB8 /* RootViewController+quote.m */; };
+		3711E7431D9A1259001EFBB8 /* Rankings.json in Resources */ = {isa = PBXBuildFile; fileRef = 3711E7421D9A1259001EFBB8 /* Rankings.json */; };
+		3711E7491D9A135E001EFBB8 /* RankingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3711E7481D9A135E001EFBB8 /* RankingListViewController.m */; };
+		3711E74C1D9A1580001EFBB8 /* ATViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3711E74B1D9A1580001EFBB8 /* ATViewController.m */; };
+		375805711EE7E96300092B32 /* MSliderTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3758056C1EE7E96300092B32 /* MSliderTabBar.m */; };
+		375805721EE7E96300092B32 /* MSliderTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3758056E1EE7E96300092B32 /* MSliderTabBarController.m */; };
+		375805731EE7E96300092B32 /* MSliderTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 375805701EE7E96300092B32 /* MSliderTabBarItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3711E71A1D9A0914001EFBB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3711E6F51D9A0913001EFBB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3711E6FC1D9A0913001EFBB8;
+			remoteInfo = CTSlidertabbarcontroller;
+		};
+		3711E7251D9A0914001EFBB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3711E6F51D9A0913001EFBB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3711E6FC1D9A0913001EFBB8;
+			remoteInfo = CTSlidertabbarcontroller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0931E08DC107D9C69CD59B5E /* libPods-CTSlidertabbarcontroller.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTSlidertabbarcontroller.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CED7C481BBE6431C6C04133 /* Pods-CTSlidertabbarcontroller.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTSlidertabbarcontroller.release.xcconfig"; path = "Pods/Target Support Files/Pods-CTSlidertabbarcontroller/Pods-CTSlidertabbarcontroller.release.xcconfig"; sourceTree = "<group>"; };
+		3711E6FD1D9A0913001EFBB8 /* CTSlidertabbarcontroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTSlidertabbarcontroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3711E7011D9A0913001EFBB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3711E7031D9A0913001EFBB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3711E7041D9A0913001EFBB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3711E7061D9A0913001EFBB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3711E7071D9A0913001EFBB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3711E70A1D9A0913001EFBB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3711E70D1D9A0913001EFBB8 /* CTSlidertabbarcontroller.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CTSlidertabbarcontroller.xcdatamodel; sourceTree = "<group>"; };
+		3711E70F1D9A0913001EFBB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3711E7121D9A0913001EFBB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3711E7141D9A0913001EFBB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3711E7191D9A0914001EFBB8 /* CTSlidertabbarcontrollerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTSlidertabbarcontrollerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3711E71D1D9A0914001EFBB8 /* CTSlidertabbarcontrollerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTSlidertabbarcontrollerTests.m; sourceTree = "<group>"; };
+		3711E71F1D9A0914001EFBB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3711E7241D9A0914001EFBB8 /* CTSlidertabbarcontrollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CTSlidertabbarcontrollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3711E7281D9A0914001EFBB8 /* CTSlidertabbarcontrollerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTSlidertabbarcontrollerUITests.m; sourceTree = "<group>"; };
+		3711E72A1D9A0914001EFBB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3711E7361D9A09D6001EFBB8 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3711E7371D9A09D6001EFBB8 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3711E7391D9A09F2001EFBB8 /* NaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaViewController.h; sourceTree = "<group>"; };
+		3711E73A1D9A09F2001EFBB8 /* NaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaViewController.m; sourceTree = "<group>"; };
+		3711E73C1D9A0B05001EFBB8 /* UIViewController+quote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+quote.h"; sourceTree = "<group>"; };
+		3711E73D1D9A0B05001EFBB8 /* UIViewController+quote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+quote.m"; sourceTree = "<group>"; };
+		3711E73F1D9A117D001EFBB8 /* RootViewController+quote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RootViewController+quote.h"; sourceTree = "<group>"; };
+		3711E7401D9A117D001EFBB8 /* RootViewController+quote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RootViewController+quote.m"; sourceTree = "<group>"; };
+		3711E7421D9A1259001EFBB8 /* Rankings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Rankings.json; sourceTree = "<group>"; };
+		3711E7471D9A135E001EFBB8 /* RankingListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingListViewController.h; sourceTree = "<group>"; };
+		3711E7481D9A135E001EFBB8 /* RankingListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingListViewController.m; sourceTree = "<group>"; };
+		3711E74A1D9A1580001EFBB8 /* ATViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATViewController.h; sourceTree = "<group>"; };
+		3711E74B1D9A1580001EFBB8 /* ATViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATViewController.m; sourceTree = "<group>"; };
+		3758056B1EE7E96300092B32 /* MSliderTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSliderTabBar.h; sourceTree = "<group>"; };
+		3758056C1EE7E96300092B32 /* MSliderTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSliderTabBar.m; sourceTree = "<group>"; };
+		3758056D1EE7E96300092B32 /* MSliderTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSliderTabBarController.h; sourceTree = "<group>"; };
+		3758056E1EE7E96300092B32 /* MSliderTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSliderTabBarController.m; sourceTree = "<group>"; };
+		3758056F1EE7E96300092B32 /* MSliderTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSliderTabBarItem.h; sourceTree = "<group>"; };
+		375805701EE7E96300092B32 /* MSliderTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSliderTabBarItem.m; sourceTree = "<group>"; };
+		DF3EDDD4EE4BAAADE6E4BE8A /* Pods-CTSlidertabbarcontroller.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTSlidertabbarcontroller.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CTSlidertabbarcontroller/Pods-CTSlidertabbarcontroller.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3711E6FA1D9A0913001EFBB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E88FB05262A9AB11F724644 /* libPods-CTSlidertabbarcontroller.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3711E7161D9A0914001EFBB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3711E7211D9A0914001EFBB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3711E6F41D9A0913001EFBB8 = {
+			isa = PBXGroup;
+			children = (
+				3711E6FF1D9A0913001EFBB8 /* CTSlidertabbarcontroller */,
+				3711E71C1D9A0914001EFBB8 /* CTSlidertabbarcontrollerTests */,
+				3711E7271D9A0914001EFBB8 /* CTSlidertabbarcontrollerUITests */,
+				3711E6FE1D9A0913001EFBB8 /* Products */,
+				F75896BEFB502B2189BD7C4B /* Pods */,
+				5596B4FEDB6B30C63DC9AFF8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3711E6FE1D9A0913001EFBB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3711E6FD1D9A0913001EFBB8 /* CTSlidertabbarcontroller.app */,
+				3711E7191D9A0914001EFBB8 /* CTSlidertabbarcontrollerTests.xctest */,
+				3711E7241D9A0914001EFBB8 /* CTSlidertabbarcontrollerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3711E6FF1D9A0913001EFBB8 /* CTSlidertabbarcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				3711E7031D9A0913001EFBB8 /* AppDelegate.h */,
+				3711E7041D9A0913001EFBB8 /* AppDelegate.m */,
+				3711E7061D9A0913001EFBB8 /* ViewController.h */,
+				3711E7071D9A0913001EFBB8 /* ViewController.m */,
+				3711E7421D9A1259001EFBB8 /* Rankings.json */,
+				3711E7361D9A09D6001EFBB8 /* RootViewController.h */,
+				3711E7371D9A09D6001EFBB8 /* RootViewController.m */,
+				3711E74A1D9A1580001EFBB8 /* ATViewController.h */,
+				3711E74B1D9A1580001EFBB8 /* ATViewController.m */,
+				3711E7391D9A09F2001EFBB8 /* NaViewController.h */,
+				3711E73A1D9A09F2001EFBB8 /* NaViewController.m */,
+				3711E7471D9A135E001EFBB8 /* RankingListViewController.h */,
+				3711E7481D9A135E001EFBB8 /* RankingListViewController.m */,
+				3711E73C1D9A0B05001EFBB8 /* UIViewController+quote.h */,
+				3711E73D1D9A0B05001EFBB8 /* UIViewController+quote.m */,
+				3711E73F1D9A117D001EFBB8 /* RootViewController+quote.h */,
+				3711E7401D9A117D001EFBB8 /* RootViewController+quote.m */,
+				3758056B1EE7E96300092B32 /* MSliderTabBar.h */,
+				3758056C1EE7E96300092B32 /* MSliderTabBar.m */,
+				3758056D1EE7E96300092B32 /* MSliderTabBarController.h */,
+				3758056E1EE7E96300092B32 /* MSliderTabBarController.m */,
+				3758056F1EE7E96300092B32 /* MSliderTabBarItem.h */,
+				375805701EE7E96300092B32 /* MSliderTabBarItem.m */,
+				3711E7091D9A0913001EFBB8 /* Main.storyboard */,
+				3711E70F1D9A0913001EFBB8 /* Assets.xcassets */,
+				3711E7111D9A0913001EFBB8 /* LaunchScreen.storyboard */,
+				3711E7141D9A0913001EFBB8 /* Info.plist */,
+				3711E70C1D9A0913001EFBB8 /* CTSlidertabbarcontroller.xcdatamodeld */,
+				3711E7001D9A0913001EFBB8 /* Supporting Files */,
+			);
+			path = CTSlidertabbarcontroller;
+			sourceTree = "<group>";
+		};
+		3711E7001D9A0913001EFBB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3711E7011D9A0913001EFBB8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3711E71C1D9A0914001EFBB8 /* CTSlidertabbarcontrollerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3711E71D1D9A0914001EFBB8 /* CTSlidertabbarcontrollerTests.m */,
+				3711E71F1D9A0914001EFBB8 /* Info.plist */,
+			);
+			path = CTSlidertabbarcontrollerTests;
+			sourceTree = "<group>";
+		};
+		3711E7271D9A0914001EFBB8 /* CTSlidertabbarcontrollerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3711E7281D9A0914001EFBB8 /* CTSlidertabbarcontrollerUITests.m */,
+				3711E72A1D9A0914001EFBB8 /* Info.plist */,
+			);
+			path = CTSlidertabbarcontrollerUITests;
+			sourceTree = "<group>";
+		};
+		5596B4FEDB6B30C63DC9AFF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0931E08DC107D9C69CD59B5E /* libPods-CTSlidertabbarcontroller.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F75896BEFB502B2189BD7C4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF3EDDD4EE4BAAADE6E4BE8A /* Pods-CTSlidertabbarcontroller.debug.xcconfig */,
+				0CED7C481BBE6431C6C04133 /* Pods-CTSlidertabbarcontroller.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3711E6FC1D9A0913001EFBB8 /* CTSlidertabbarcontroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3711E72D1D9A0914001EFBB8 /* Build configuration list for PBXNativeTarget "CTSlidertabbarcontroller" */;
+			buildPhases = (
+				E8FF4082D1E4D3E5F5846502 /* [CP] Check Pods Manifest.lock */,
+				3711E6F91D9A0913001EFBB8 /* Sources */,
+				3711E6FA1D9A0913001EFBB8 /* Frameworks */,
+				3711E6FB1D9A0913001EFBB8 /* Resources */,
+				7602BAEFA5D935194DED2978 /* [CP] Embed Pods Frameworks */,
+				B3ACEC16EF988188D9160FB9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTSlidertabbarcontroller;
+			productName = CTSlidertabbarcontroller;
+			productReference = 3711E6FD1D9A0913001EFBB8 /* CTSlidertabbarcontroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3711E7181D9A0914001EFBB8 /* CTSlidertabbarcontrollerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3711E7301D9A0914001EFBB8 /* Build configuration list for PBXNativeTarget "CTSlidertabbarcontrollerTests" */;
+			buildPhases = (
+				3711E7151D9A0914001EFBB8 /* Sources */,
+				3711E7161D9A0914001EFBB8 /* Frameworks */,
+				3711E7171D9A0914001EFBB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3711E71B1D9A0914001EFBB8 /* PBXTargetDependency */,
+			);
+			name = CTSlidertabbarcontrollerTests;
+			productName = CTSlidertabbarcontrollerTests;
+			productReference = 3711E7191D9A0914001EFBB8 /* CTSlidertabbarcontrollerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3711E7231D9A0914001EFBB8 /* CTSlidertabbarcontrollerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3711E7331D9A0914001EFBB8 /* Build configuration list for PBXNativeTarget "CTSlidertabbarcontrollerUITests" */;
+			buildPhases = (
+				3711E7201D9A0914001EFBB8 /* Sources */,
+				3711E7211D9A0914001EFBB8 /* Frameworks */,
+				3711E7221D9A0914001EFBB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3711E7261D9A0914001EFBB8 /* PBXTargetDependency */,
+			);
+			name = CTSlidertabbarcontrollerUITests;
+			productName = CTSlidertabbarcontrollerUITests;
+			productReference = 3711E7241D9A0914001EFBB8 /* CTSlidertabbarcontrollerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3711E6F51D9A0913001EFBB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "孙玉震";
+				TargetAttributes = {
+					3711E6FC1D9A0913001EFBB8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3711E7181D9A0914001EFBB8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3711E6FC1D9A0913001EFBB8;
+					};
+					3711E7231D9A0914001EFBB8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3711E6FC1D9A0913001EFBB8;
+					};
+				};
+			};
+			buildConfigurationList = 3711E6F81D9A0913001EFBB8 /* Build configuration list for PBXProject "CTSlidertabbarcontroller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3711E6F41D9A0913001EFBB8;
+			productRefGroup = 3711E6FE1D9A0913001EFBB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3711E6FC1D9A0913001EFBB8 /* CTSlidertabbarcontroller */,
+				3711E7181D9A0914001EFBB8 /* CTSlidertabbarcontrollerTests */,
+				3711E7231D9A0914001EFBB8 /* CTSlidertabbarcontrollerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3711E6FB1D9A0913001EFBB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3711E7131D9A0913001EFBB8 /* LaunchScreen.storyboard in Resources */,
+				3711E7101D9A0913001EFBB8 /* Assets.xcassets in Resources */,
+				3711E7431D9A1259001EFBB8 /* Rankings.json in Resources */,
+				3711E70B1D9A0913001EFBB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3711E7171D9A0914001EFBB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3711E7221D9A0914001EFBB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7602BAEFA5D935194DED2978 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTSlidertabbarcontroller/Pods-CTSlidertabbarcontroller-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3ACEC16EF988188D9160FB9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTSlidertabbarcontroller/Pods-CTSlidertabbarcontroller-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8FF4082D1E4D3E5F5846502 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3711E6F91D9A0913001EFBB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3711E7081D9A0913001EFBB8 /* ViewController.m in Sources */,
+				3711E7491D9A135E001EFBB8 /* RankingListViewController.m in Sources */,
+				3711E7411D9A117D001EFBB8 /* RootViewController+quote.m in Sources */,
+				3711E7051D9A0913001EFBB8 /* AppDelegate.m in Sources */,
+				375805721EE7E96300092B32 /* MSliderTabBarController.m in Sources */,
+				3711E73E1D9A0B05001EFBB8 /* UIViewController+quote.m in Sources */,
+				375805711EE7E96300092B32 /* MSliderTabBar.m in Sources */,
+				3711E7021D9A0913001EFBB8 /* main.m in Sources */,
+				3711E70E1D9A0913001EFBB8 /* CTSlidertabbarcontroller.xcdatamodeld in Sources */,
+				375805731EE7E96300092B32 /* MSliderTabBarItem.m in Sources */,
+				3711E7381D9A09D6001EFBB8 /* RootViewController.m in Sources */,
+				3711E73B1D9A09F2001EFBB8 /* NaViewController.m in Sources */,
+				3711E74C1D9A1580001EFBB8 /* ATViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3711E7151D9A0914001EFBB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3711E71E1D9A0914001EFBB8 /* CTSlidertabbarcontrollerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3711E7201D9A0914001EFBB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3711E7291D9A0914001EFBB8 /* CTSlidertabbarcontrollerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3711E71B1D9A0914001EFBB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3711E6FC1D9A0913001EFBB8 /* CTSlidertabbarcontroller */;
+			targetProxy = 3711E71A1D9A0914001EFBB8 /* PBXContainerItemProxy */;
+		};
+		3711E7261D9A0914001EFBB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3711E6FC1D9A0913001EFBB8 /* CTSlidertabbarcontroller */;
+			targetProxy = 3711E7251D9A0914001EFBB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3711E7091D9A0913001EFBB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3711E70A1D9A0913001EFBB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3711E7111D9A0913001EFBB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3711E7121D9A0913001EFBB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3711E72B1D9A0914001EFBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3711E72C1D9A0914001EFBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3711E72E1D9A0914001EFBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF3EDDD4EE4BAAADE6E4BE8A /* Pods-CTSlidertabbarcontroller.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CTSlidertabbarcontroller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitake.CTSlidertabbarcontroller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3711E72F1D9A0914001EFBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CED7C481BBE6431C6C04133 /* Pods-CTSlidertabbarcontroller.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CTSlidertabbarcontroller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitake.CTSlidertabbarcontroller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3711E7311D9A0914001EFBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CTSlidertabbarcontrollerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitake.CTSlidertabbarcontrollerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTSlidertabbarcontroller.app/CTSlidertabbarcontroller";
+			};
+			name = Debug;
+		};
+		3711E7321D9A0914001EFBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CTSlidertabbarcontrollerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitake.CTSlidertabbarcontrollerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CTSlidertabbarcontroller.app/CTSlidertabbarcontroller";
+			};
+			name = Release;
+		};
+		3711E7341D9A0914001EFBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CTSlidertabbarcontrollerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitake.CTSlidertabbarcontrollerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CTSlidertabbarcontroller;
+			};
+			name = Debug;
+		};
+		3711E7351D9A0914001EFBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CTSlidertabbarcontrollerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mitake.CTSlidertabbarcontrollerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CTSlidertabbarcontroller;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3711E6F81D9A0913001EFBB8 /* Build configuration list for PBXProject "CTSlidertabbarcontroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3711E72B1D9A0914001EFBB8 /* Debug */,
+				3711E72C1D9A0914001EFBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3711E72D1D9A0914001EFBB8 /* Build configuration list for PBXNativeTarget "CTSlidertabbarcontroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3711E72E1D9A0914001EFBB8 /* Debug */,
+				3711E72F1D9A0914001EFBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3711E7301D9A0914001EFBB8 /* Build configuration list for PBXNativeTarget "CTSlidertabbarcontrollerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3711E7311D9A0914001EFBB8 /* Debug */,
+				3711E7321D9A0914001EFBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3711E7331D9A0914001EFBB8 /* Build configuration list for PBXNativeTarget "CTSlidertabbarcontrollerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3711E7341D9A0914001EFBB8 /* Debug */,
+				3711E7351D9A0914001EFBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3711E70C1D9A0913001EFBB8 /* CTSlidertabbarcontroller.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3711E70D1D9A0913001EFBB8 /* CTSlidertabbarcontroller.xcdatamodel */,
+			);
+			currentVersion = 3711E70D1D9A0913001EFBB8 /* CTSlidertabbarcontroller.xcdatamodel */;
+			path = CTSlidertabbarcontroller.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3711E6F51D9A0913001EFBB8 /* Project object */;
+}

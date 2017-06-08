@@ -1,0 +1,32 @@
+ [
+  {
+  "class": "RankingListViewController",
+  "name": "沪深",
+  "file": "RankingSHSZ"
+  },
+  {
+  "class": "RankingListViewController",
+  "name": "板块",
+  "file": "RankingSection"
+  },
+  {
+  "class": "RankingListViewController",
+  "name": "板块",
+  "file": "RankingSection"
+  },
+  {
+  "class": "RankingListViewController",
+  "name": "板块",
+  "file": "RankingSection"
+  },
+  {
+  "class": "RankingListViewController",
+  "name": "板块",
+  "file": "RankingSection"
+  },
+  {
+  "class": "RankingListViewController",
+  "name": "港股",
+  "file": "RankingHK"
+  }
+  ]
